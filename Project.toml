@@ -1,0 +1,13 @@
+name = "Jarl"
+uuid = "bb5a0efc-669a-4a70-ba02-8c1d9ae177fe"
+authors = ["sa-"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
